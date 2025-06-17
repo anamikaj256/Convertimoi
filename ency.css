@@ -1,0 +1,126 @@
+.app {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.splash-screen h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.splash-screen p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+#get-start-btn {
+  background: white;
+  color: #0072ff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#get-start-btn:hover {
+  background: #f1f1f1;
+}
+.logo {
+  display: flex;
+  justify-content: center; /* Centers the logo horizontally */
+  align-items: center; /* Centers the logo vertically */
+  padding: 10px; /* Adds some spacing around the logo */
+  background: #ffffff; /* Adds a clean white background */
+  border-radius: 50%; /* Makes the logo circular */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+  width: 100px; /* Sets a fixed size for the logo container */
+  height: 100px; /* Ensures it's perfectly circular */
+  margin: 20px auto; /* Adds some spacing around and centers it in the layout */
+}
+
+.logo img {
+  width: 80%; /* Scales the image to fit nicely within the container */
+  height: auto; /* Maintains the aspect ratio */
+  object-fit: cover; /* Ensures the image fits cleanly inside */
+  border-radius: 50%; /* Gives the image rounded edges if it doesn't already */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #6ec1e4, #ffffff);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.exchange-screen {
+  text-align: center;
+  max-width: 400px;
+}
+
+.converter {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.exchange-screen h1 {
+  color: #0077cc;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.dropdowns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+select {
+  width: 45%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#swap {
+  font-size: 20px;
+  cursor: pointer;
+  color: #0077cc;
+}
+
+button {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #218838;
+}
+
+#result {
+  margin-top: 15px;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+  
+
